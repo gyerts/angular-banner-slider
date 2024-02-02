@@ -1,4 +1,4 @@
-![img.png](img.png)
+![img.png](https://github.com/gyerts/angular-banner-slider/raw/main/img.png)
 
 ```typescript
 import { Component } from '@angular/core';
