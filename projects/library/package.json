@@ -1,0 +1,19 @@
+{
+  "name": "angular-banner-slider",
+  "version": "0.4.5",
+  "peerDependencies": {
+    "@angular/common": "^17.1.0",
+    "@angular/core": "^17.1.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "sideEffects": false,
+  "scripts": {
+    "build-tailwind": "npx tailwindcss -i ./src/lib/tailwind.scss -o ./src/lib/angular-banner-slider.component.css",
+    "publish": "ng build library && cd ../../dist/library && npm publish",
+    "publish-patch": "npm version patch && npm run publish",
+    "publish-minor": "npm version minor && npm run publish",
+    "publish-major": "npm version major && npm run publish"
+  }
+}
