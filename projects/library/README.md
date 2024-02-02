@@ -1,3 +1,5 @@
+![img.png](img.png)
+
 ```typescript
 import { Component } from '@angular/core';
 import { AngularBannerSlider, Banner } from 'angular-banner-slider';
@@ -32,4 +34,3 @@ export class PluginBannerSliderComponent {
   }
 }
 ```
-![img.png](img.png)
